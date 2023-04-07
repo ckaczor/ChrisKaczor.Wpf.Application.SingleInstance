@@ -6,8 +6,19 @@
 		<RootNamespace>ChrisKaczor.Wpf.Application</RootNamespace>
 		<Title>ChrisKaczor.Wpf.Application.SingleInstance</Title>
 		<Authors>Chris Kaczor</Authors>
+		<Product>ChrisKaczor.Wpf.Application.SingleInstance</Product>
+		<RepositoryUrl>https://github.com/ckaczor/ChrisKaczor.Wpf.Application.SingleInstance</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Description>This library can be used to restrict an application to only a single instance and sends the command line of any newly started instance to the currently running instance.</Description>
+		<PackageId>ChrisKaczor.Wpf.Application.SingleInstance</PackageId>
 	</PropertyGroup>
 	<ItemGroup>
 	  <PackageReference Include="H.Pipes" Version="2.0.47" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 </Project>
