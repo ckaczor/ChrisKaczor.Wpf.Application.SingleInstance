@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net7.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+		<RootNamespace>ChrisKaczor.Wpf.Application</RootNamespace>
+		<Title>ChrisKaczor.Wpf.Application.SingleInstance</Title>
+		<Authors>Chris Kaczor</Authors>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="H.Pipes" Version="2.0.47" />
+	</ItemGroup>
+</Project>
